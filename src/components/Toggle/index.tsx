@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { 
     Container, 
     ToggleLabel, 
@@ -12,7 +13,8 @@ const Toggle: React.FC = () => (
         checked
         uncheckedIcon={false}
         checkedIcon={false}
-        onChange={() => console.log('mudou')}/>
+        onChange={() => console.log('mudou')}
+        />
         <ToggleLabel>Dark</ToggleLabel>
     </Container>
 )
